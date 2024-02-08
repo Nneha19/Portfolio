@@ -2,18 +2,7 @@ import {
   mobile,
   backend,
   web,
-  javascript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  express,
-  mysql,
+ 
   expense_tracker,
   vidsphere,
   reciperover,
@@ -21,6 +10,7 @@ import {
   imageseeker,
   reactminifeatures,
 } from "../assets";
+
 
 export const navLinks = [
   {
@@ -55,53 +45,54 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-    icon: html,
+    icon: "./html.png",
   },
   {
     name: "CSS 3",
-    icon: css,
+    icon: "./css.png",
   },
   {
     name: "JavaScript",
-    icon: javascript,
+    icon: "./javascript.png",
   },
   {
     name: "React JS",
-    icon: reactjs,
+    icon: "./reactjs.png",
   },
   {
     name: "Redux Toolkit",
-    icon: redux,
+    icon: "./redux.png",
   },
   {
     name: "Tailwind CSS",
-    icon: tailwind,
+    icon: "./tailwind.png",
   },
   {
     name: "Node JS",
-    icon: nodejs,
+    icon: "./nodejs.png",
   },
   {
     name: "MongoDB",
-    icon: mongodb,
+    icon: "./mongodb.png",
   },
   {
     name: "MySQL",
-    icon: mysql,
+    icon: "./mysql.png",
   },
   {
     name: "Express",
-    icon: express,
+    icon: "./express.png",
   },
   {
     name: "git",
-    icon: git,
+    icon: "./git.png",
   },
   {
     name: "figma",
-    icon: figma,
+    icon: "./figma.png",
   },
 ];
+
 
 const projects = [
   {
@@ -126,6 +117,7 @@ const projects = [
     demo_link: "https://expensetrace.netlify.app/",
     source_code_link: "https://github.com/Nneha19/ExpenseTracker",
   },
+ 
   {
     name: "VidSphere",
     description:
